@@ -9,5 +9,11 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /CSSFiles
+  static_dir: CSSFiles
+
+  - url: /form.php
+    script: form.php
+
 - url: .*
-  script: index.php
+  script: main.php
